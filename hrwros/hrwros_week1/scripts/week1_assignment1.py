@@ -3,8 +3,8 @@
 # Assignment 1 for Week1: In this assignment you will subscribe to the topic that
 # publishes sensor information. Then, you will transform the sensor reading from
 # the reference frame of the sensor to compute the height of a box based on the
-# illustration shown in the assignment document. Then, you will publish the
-# box height on a new message type ONLY if the height of the box is more than 10cm.
+# illustration shown in the assignment document. Then, you will
+# publish the box height on a new message type ONLY if the height of the box is more than 10cm.
 
 # All necessary python imports go here.
 import rospy
