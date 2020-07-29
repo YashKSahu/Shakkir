@@ -11,7 +11,6 @@ import rospy
 from hrwros_msgs.msg import SensorInformation, BoxHeightInformation
 
 def sensor_info_callback(data, bhi_pub):
-
     height_box = 2.0 - data.sensor_data.range
 
     # Compute the height of the box.

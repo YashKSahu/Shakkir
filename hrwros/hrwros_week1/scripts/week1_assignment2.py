@@ -1,8 +1,8 @@
 #! /usr/bin/env python
 
-# Assignment 2 for Week1: In this assignment you will subscribe to the topic that
-# publishes information on the box height in metres and use the metres_to_feet
-# service to convert this height in metres to height in feet.
+# Assignment 2 for Week 1: In this assignment you will subscribe to the topic that
+# publishes information on the box height in metres and use the metres_to_feet service
+# to convert this height in metres to height in feet.
 
 import rospy
 from hrwros_msgs.msg import BoxHeightInformation
